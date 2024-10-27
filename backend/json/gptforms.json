@@ -1,0 +1,766 @@
+[
+    {
+        "id": 11,
+        "icon": "linkedin",
+        "color": "#F44336",
+        "title": "Professional Personalized Message Generator",
+        "description": "Get a personalized message for connecting with a potential professional contact",
+        "category": "generation,conversation,linkedin,social-media",
+        "max_tokens": 700,
+        "stop": [
+            "\n"
+        ],
+        "prompt": "Hi, my name is {personname} and I am a {personprofession}. I came across your profile and was impressed by your experience in the {personindustry} industry. I would love to connect and learn more about your work. Can you please tell me more about your work?\n\n",
+        "fields": [
+            {
+                "id": "personname",
+                "label": "Your Name",
+                "type": "text",
+                "min": 3,
+                "max": 120
+            },
+            {
+                "id": "personprofession",
+                "label": "Your Profession",
+                "type": "text",
+                "min": 3,
+                "max": 120
+            },
+            {
+                "id": "personindustry",
+                "label": "Your Industry",
+                "type": "text",
+                "min": 3,
+                "max": 120
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 3,
+        "icon": "coach",
+        "color": "#00BFFF",
+        "title": "Advise For Business Solution",
+        "description": "Get innovative solutions to grow your business.",
+        "category": "business,coaching",
+        "max_tokens": 300,
+        "temperature": 0.5,
+        "frequency_penalty": 0.2,
+        "presence_penalty": 0.1,
+        "prompt": "Get solutions for problem :{bsaproblem}",
+        "fields": [
+            {
+                "id": "bsaproblem",
+                "label": "Problem",
+                "type": "text",
+                "min": 5,
+                "max": 80
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 4,
+        "icon": "thumbs",
+        "color": "#34495E",
+        "title": "Content Marketing Business Strategy Generator",
+        "description": "Get a content marketing business strategy.",
+        "category": "generation,marketing",
+        "max_tokens": 1000,
+        "temperature": 0.6,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.2,
+        "prompt": "Get a content marketing strategy for a business. Business: {businessname}\n\n",        
+        "fields": [
+            {
+                "id": "businessname",
+                "label": "Business",
+                "type": "text",
+                "min": 5,
+                "max": 80
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 5,
+        "icon": "event",
+        "color": "#9B59B6",
+        "title": "Social Media Marketing Generator",
+        "description": "Generate a social media marketing plan for a business.",
+        "category": "generation,marketing,social-media",
+        "max_tokens": 1000,
+        "temperature": 0.6,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.2,
+        "prompt": "Get a social media marketing plan for a business. Business: {businessname}\n\n",
+        "fields": [
+            {
+                "id": "businessname",
+                "label": "Business",
+                "type": "text",
+                "min": 5,
+                "max": 80
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 6,
+        "icon": "cart",
+        "color": "#FF00DC",
+        "title": "Compare WooCommerce Product",
+        "description": "Get a product comparison for a WooCommerce product.",
+        "category": "generation,product,woocommerce",
+        "max_tokens": 250,
+        "temperature": 0.7,
+        "frequency_penalty": 0.2,
+        "presence_penalty": 0.05,
+        "prompt": "Get a product comparison for a product. Product: {productname}\n\n",
+        "fields": [
+            {
+                "id": "productname",
+                "label": "Product Name",
+                "type": "text",
+                "min": 5,
+                "max": 80
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 7,
+        "icon": "cart",
+        "color": "#006400",
+        "title": "Upsell your WooCommerce Product",
+        "description": "Get a wooCommerce product upsell.",
+        "category": "generation,product,woocommerce",
+        "max_tokens": 150,
+        "temperature": 0.6,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.1,
+        "prompt": "Get a product upsell for a WooCommerce product. Product: {productname}\n\n",
+        "fields": [
+            {
+                "id": "productname",
+                "label": "Product Name",
+                "type": "text",
+                "min": 5,
+                "max": 80
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 14,
+        "icon": "linkedin",
+        "color": "#00ff00",
+        "title": "LinkedIn Introduction Generator",
+        "description": "Get a personalized introduction for networking on LinkedIn.",
+        "category": "generation,conversation,linkedin,social-media",
+        "max_tokens": 900,
+        "temperature": 0.5,
+        "prompt": "Get LinkedIn introduction message for {personname}, a {personprofession} in the {personindustry} industry\n\n",
+        "fields": [
+            {
+                "id": "personname",
+                "label": "Your Name",
+                "type": "text",
+                "min": 3,
+                "max": 120
+            },
+            {
+                "id": "personprofession",
+                "label": "Your Profession",
+                "type": "text",
+                "min": 3,
+                "max": 120
+            },
+            {
+                "id": "personindustry",
+                "label": "Your Industry",
+                "type": "text",
+                "min": 3,
+                "max": 120
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 18,
+        "icon": "instagram",
+        "color": "#E1306C",
+        "title": "Get Instagram caption",
+        "description": "Get an Instagram caption that adds context to your photo.",
+        "category": "generation,social-media,instagram",
+        "max_tokens": 150,
+        "temperature": 0.5,
+        "prompt": "Get an Instagram caption picture about:{object}\n\n",
+        "fields": [
+            {
+                "id": "object",
+                "label": "Object",
+                "type": "text",
+                "min": 2,
+                "max": 120
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 19,
+        "icon": "facebook",
+        "color": "#007ACC",
+        "title": "Get Post for Facebook",
+        "description": "Get eye catchy post for Facebook",
+        "category": "generation,social-media,facebook",
+        "max_tokens": 300,
+        "temperature": 0.5,
+        "prompt": "Get a eye catchy post about the benefits of {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 2,
+                "max": 120
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 21,
+        "icon": "blog",
+        "color": "#ADFF2F",
+        "title": "Get New Product Blog post",
+        "description": "Get a blog post to introduce a new product to readers.",
+        "category": "generation,blog,product,woocommerce",
+        "max_tokens": 900,
+        "temperature": 0.7,
+        "prompt": "Get Product: {product} - {productshortdescription}.\n\nBlog post title: {blogtitle}\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product Name",
+                "type": "text",
+                "min": 2,
+                "max": 120
+            },
+            {
+                "id": "productshortdescription",
+                "label": "Product Short Description",
+                "type": "text",
+                "min": 2,
+                "max": 300
+            },
+            {
+                "id": "blogtitle",
+                "label": "Blog Post Title",
+                "type": "text",
+                "min": 2,
+                "max": 120
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 25,
+        "icon": "pen",
+        "color": "#F7DC6F",
+        "title": "Get Blog Post Title",
+        "description": "Get an attention-grabbing title for a blog post.",
+        "category": "generation,blog",
+        "max_tokens": 50,
+        "temperature": 0.5,
+        "prompt": "Get an eye catchy title for a blog post. Topic: {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 26,
+        "icon": "pen",
+        "color": "#9A12B3",
+        "title": "Get Blog Post Introduction",
+        "description": "Get an engaging introduction for a blog post.",
+        "category": "generation,blog",
+        "max_tokens": 150,
+        "temperature": 0.7,
+        "prompt": "Get a good introduction for a blog post. Topic: {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 27,
+        "icon": "pen",
+        "color": "#2ECC71",
+        "title": "Get Blog Post Conclusion",
+        "description": "Get a conclusion for a blog post.",
+        "category": "generation,blog",
+        "max_tokens": 150,
+        "temperature": 0.7,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.1,
+        "prompt": "Get a conclusion for a blog post about: {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 28,
+        "icon": "pen",
+        "color": "#3498DB",
+        "title": "Get WordPress Blog Post Title",
+        "description": "Get a catchy and attention-grabbing title for a WordPress blog post.",
+        "category": "generation,blog,wordpress",
+        "max_tokens": 50,
+        "temperature": 0.7,
+        "frequency_penalty": 0.2,
+        "presence_penalty": 0.1,
+        "prompt": "Get eye catchy title for a WordPress blog post about : {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 29,
+        "icon": "pen",
+        "color": "#F1C40F",
+        "title": "Get WordPress Blog Post Introduction",
+        "description": "Get an engaging introduction for a WordPress blog post.",
+        "category": "generation,blog,wordpress",
+        "max_tokens": 150,
+        "temperature": 0.8,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.05,
+        "prompt": "Get eye catchy introduction for a WordPress blog post about: {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 30,
+        "icon": "pen",
+        "color": "#E67E22",
+        "title": "Get Social Media Post",
+        "description": "Get a catchy and engaging social media post for a new product launch.",
+        "category": "generation,social-media,marketing",
+        "max_tokens": 140,
+        "temperature": 0.7,
+        "frequency_penalty": 0.2,
+        "presence_penalty": 0.05,
+        "prompt": "Get a social media post for a new product launch. Product: {product}. Company: {companyname}.\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            },
+            {
+                "id": "companyname",
+                "label": "Company Name",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 31,
+        "icon": "pen",
+        "color": "#27AE60",
+        "title": "Get Social Media Caption",
+        "description": "Get a catchy and engaging caption for a social media post",
+        "category": "generation,social-media,marketing",
+        "max_tokens": 30,
+        "temperature": 1,
+        "frequency_penalty": 0.2,
+        "presence_penalty": 0.1,
+        "prompt": "Get a caption for a social media post about : {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 32,
+        "icon": "list",
+        "color": "#7F8C8D",
+        "title": "Get E-commerce Products List",
+        "description": "Get an e-commerce website product list.",
+        "category": "generation,product,ecommerce",
+        "max_tokens": 200,
+        "temperature": 0.7,
+        "frequency_penalty": 0.2,
+        "presence_penalty": 0.1,
+        "prompt": "Get a product list for an e-commerce website. Product: {product}.\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 33,
+        "icon": "cart",
+        "color": "#E74C3C",
+        "title": "Get E-commerce Product Description",
+        "description": "Get a detailed product description for an e-commerce website.",
+        "category": "generation,product,ecommerce",
+        "max_tokens": 500,
+        "temperature": 0.9,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.2,
+        "prompt": "Get a detailed product description about : {product}.\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 34,
+        "icon": "search",
+        "color": "#1ABC9C",
+        "title": "Get SEO Title",
+        "description": "Get an SEO friendly title for a website page.",
+        "category": "generation,seo,blog",
+        "max_tokens": 60,
+        "temperature": 0.7,
+        "prompt": "Get an SEO eye-catchy title for a website page: {page}.\n\n",
+        "fields": [
+            {
+                "id": "page",
+                "label": "Page",
+                "type": "text",
+                "min": 2,
+                "max": 240
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 36,
+        "icon": "grammar",
+        "color": "#DDA0DD",
+        "title": "Get Grammar correction",
+        "description": "Get corrects sentences into standard English.",
+        "category": "transformation,generation",
+        "max_tokens": 500,
+        "prompt": "Get Correction into the standard English: {textinput}.",
+        "fields": [
+            {
+                "id": "textinput",
+                "label": "Text",
+                "type": "text",
+                "min": 2,
+                "max": 500
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 43,
+        "icon": "key",
+        "color": "#AFEEEE",
+        "title": "Get Keywords",
+        "description": "Get keywords from a block of text.",
+        "category": "classification,transformation,keyword",
+        "max_tokens": 60,
+        "temperature": 0.5,
+        "frequency_penalty": 0.8,
+        "prompt": "Get keywords from this text:\n\n{textinput}\n\n",
+        "fields": [
+            {
+                "id": "textinput",
+                "label": "Text",
+                "type": "text",
+                "min": 2,
+                "max": 700
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 58,
+        "icon": "idea",
+        "color": "#9BDBFB",
+        "title": "Get Business Idea",
+        "description": "Get Business idea for your business.",
+        "category": "generation",
+        "max_tokens": 150,
+        "temperature": 0.6,
+        "frequency_penalty": 1,
+        "presence_penalty": 1,
+        "prompt": "Get some ideas about {topic}:\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 1,
+                "max": 2000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 60,
+        "icon": "food",
+        "color": "#A074C4",
+        "title": "Get Recipe Ingredients",
+        "description": "Get a recipe from a list of ingredients.",
+        "category": "generation,food",
+        "max_tokens": 700,
+        "temperature": 0.3,
+        "prompt": "Get recipe ingredients for {ingredients}",
+        "fields": [
+            {
+                "id": "ingredients",
+                "label": "Ingredients",
+                "type": "text",
+                "min": 1,
+                "max": 2000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 64,
+        "icon": "interview",
+        "color": "#21B68B",
+        "title": "Get Interview questions",
+        "description": "Get interview questions.",
+        "category": "generation",
+        "max_tokens": 300,
+        "temperature": 0.5,
+        "prompt": "Get the list of {questions} questions for my interview about:{topic}.\n\n",
+        "fields": [
+            {
+                "id": "questions",
+                "label": "Number of Questions",
+                "type": "select",
+                "options": [
+                    "3",
+                    "5",
+                    "8",
+                    "10"
+                ]
+            },
+            {
+                "id": "topic",
+                "label": "Interview Topic",
+                "type": "text",
+                "min": 1,
+                "max": 2000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 66,
+        "icon": "cart",
+        "color": "#808000",
+        "title": "Get WooCommerce Short Description",
+        "description": "Get a short description for a WooCommerce product.",
+        "category": "generation,product,woocommerce",
+        "max_tokens": 200,
+        "temperature": 0.8,
+        "prompt": "Get a short description of a WooCommerce product. Product:{product}\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 1,
+                "max": 1000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 67,
+        "icon": "cart",
+        "color": "#FF69B4",
+        "title": "Get WooCommerce Long Description",
+        "description": "Get long description for a WooCommerce product.",
+        "category": "generation,product,woocommerce",
+        "max_tokens": 500,
+        "temperature": 0.8,
+        "prompt": "Get a long description for a product. Product: {product}\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 1,
+                "max": 2000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 68,
+        "icon": "food",
+        "color": "#556B2F",
+        "title": "Get Recipe With New Food Product",
+        "description": "Get a recipe using a new food product.",
+        "category": "generation,product,food",
+        "max_tokens": 200,
+        "temperature": 0.7,
+        "prompt": "Get a new recipe using a new food product. Product: {product}\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 1,
+                "max": 2000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 70,
+        "icon": "cart",
+        "color": "#00FFFF",
+        "title": "Get WooCommerce Product Attribute",
+        "description": "Get a product attribute for a WooCommerce product.",
+        "category": "generation,product,woocommerce",
+        "max_tokens": 150,
+        "temperature": 0.5,
+        "frequency_penalty": 0.1,
+        "prompt": "Get a product attribute for a WooCommerce product. Product: {product}\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 1,
+                "max": 1000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 73,
+        "icon": "cart",
+        "color": "#B22222",
+        "title": "Get WooCommerce Product Keywords",
+        "description": "Get WooCommerce product keywords.",
+        "category": "generation,product,woocommerce,keyword",
+        "max_tokens": 100,
+        "temperature": 0.5,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.1,
+        "prompt": "Get keywords for a product. Product: {product}\n\n",
+        "fields": [
+            {
+                "id": "product",
+                "label": "Product",
+                "type": "text",
+                "min": 1,
+                "max": 1000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 84,
+        "icon": "google",
+        "color": "#16A085",
+        "title": "Get Google Search Query",
+        "description": "Get a list of potential search queries for a specific topic using Google Autocomplete",
+        "category": "generation,seo,google,keyword",
+        "max_tokens": 200,
+        "temperature": 0.7,
+        "frequency_penalty": 0.1,
+        "presence_penalty": 0.2,
+        "prompt": "Get search queries for a topic about : {topic}.\n\n",
+        "fields": [
+            {
+                "id": "topic",
+                "label": "Topic",
+                "type": "text",
+                "min": 1,
+                "max": 1000
+            }
+        ],
+        "editor": "textarea"
+    },
+    {
+        "id": 85,
+        "icon": "google",
+        "color": "#D0021B",
+        "title": "Get Google Search Suggestions",
+        "description": "Get search suggestions for a given keyword on Google.",
+        "category": "generation,seo,google,keyword",
+        "temperature": 0.7,
+        "prompt": "Get search suggestions for the keyword : {keyword}.\n\n",
+        "fields": [
+            {
+                "id": "keyword",
+                "label": "Keyword",
+                "type": "text",
+                "min": 1,
+                "max": 1000
+            }
+        ],
+        "editor": "textarea"
+    }
+]

@@ -1,0 +1,526 @@
+[
+  {
+    "id": 124,
+    "icon": "thumbs",
+    "color": "#34495E",
+    "title": "Content Marketing Business Strategy Generator",
+    "description": "Get a content marketing business strategy.",
+    "category": "generation,marketing",
+    "max_tokens": 1000,
+    "temperature": 0.6,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.2,
+    "prompt": "Get a content marketing strategy for a business. Business: [YOUR BUSINESS]\n\n"
+    
+  },
+  {
+    "id": 83,
+    "icon": "search",
+    "color": "#F39C12",
+    "title": "Meta Description Generator for SEO",
+    "description": "Get an SEO meta description for a website page.",
+    "category": "generation,seo,google",
+    "max_tokens": 300,
+    "temperature": 0.6,
+    "prompt": "Get Suggestion for SEO friendly meta description for this website: [YOUR WEBSITE]\n\n"
+    
+  },
+  {
+    "id": 86,
+    "icon": "google",
+    "color": "#2980B9",
+    "title": "Google Keyword Generator",
+    "description": "Get google keywords for a website or blog post",
+    "category": "generation,seo,google,keyword",
+    "max_tokens": 300,
+    "temperature": 0.7,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.2,
+    "prompt": "Get a list of relevant keywords for a website or blog post about [YOUR TOPIC].\n\n"
+    
+  },
+  {
+    "id": 79,
+    "icon": "event",
+    "color": "#9B59B6",
+    "title": "Social Media Marketing Generator",
+    "description": "Get a social media marketing plan for a business.",
+    "category": "generation,marketing,social-media",
+    "max_tokens": 1000,
+    "temperature": 0.6,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.2,
+    "prompt": "Get a social media marketing plan for a business. Business: [YOUR BUSINESS]\n\n"
+    
+  },
+  {
+    "id": 53,
+    "icon": "cart",
+    "color": "#FF00DC",
+    "title": "Compare WooCommerce Product",
+    "description": "Get a product comparison for a WooCommerce product.",
+    "category": "generation,product,woocommerce",
+    "max_tokens": 500,
+    "temperature": 0.7,
+    "frequency_penalty": 0.2,
+    "presence_penalty": 0.05,
+    "prompt": "Get a product comparison for a product. Product: [YOUR PRODUCT]\n\n"
+    
+  },
+  {
+    "id": 121,
+    "icon": "scale",
+    "color": "#228B22",
+    "title": "Nutrition Advice Generator",
+    "description": "Get personalized nutrition advice for a healthy lifestyle.",
+    "category": "coaching",
+    "max_tokens": 1000,
+    "temperature": 0.7,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.2,
+    "prompt": "Get a list of 10 healthy eating habits for a better diet and nutrition.\n\n"
+    
+  },
+  {
+    "id": 40,
+    "icon": "linkedin",
+    "color": "#F44336",
+    "title": "Professional Personalized Message Generator",
+    "description": "Get a personalized message for connecting with a potential professional contact",
+    "category": "generation,conversation,linkedin,social-media",
+    "stop": [
+      "\n"
+    ],
+    "prompt": "Get personalized message for profession:[YOUR PROFESSION]\n\n"
+    
+  },
+  {
+    "id": 41,
+    "icon": "person1",
+    "color": "#9C27B0",
+    "title": "Advice Generator for Career",
+    "description": "Provides advice for advancing your career",
+    "category": "coaching,generation,linkedin",
+    "stop": [
+      "\n"
+    ],
+    "prompt": "Get advice for career:[YOUR CAREER]\n\n"
+    
+  },
+  {
+    "id": 42,
+    "icon": "resume",
+    "color": "#4CAF50",
+    "title": "Optimize Your Resume",
+    "description": "Optimizes and improves the language and formatting of your resume for better chances of getting hired.",
+    "category": "transformation,generation,linkedin,coaching",
+    "max_tokens": 1200,
+    "prompt": "Get Resume optimization tips:[YOUR PROFESSION]"
+    
+  },
+  {
+    "id": 43,
+    "icon": "linkedin",
+    "color": "#00ff00",
+    "title": "LinkedIn Introduction Generator",
+    "description": "Get a personalized introduction for networking on LinkedIn.",
+    "category": "generation,conversation,linkedin,social-media",
+    "temperature": 0.5,
+    "prompt": "Get LinkedIn introduction message\n\n"
+    
+  },
+  {
+    "id": 35,
+    "icon": "twitter",
+    "color": "#1DA1F2",
+    "title": "Get Twitter Topic Thread",
+    "description": "Get a Twitter thread on a topic of your choice.",
+    "category": "generation,social-media,twitter",
+    "max_tokens": 150,
+    "temperature": 0.3,
+    "prompt": "Get a Twitter thread tips:[YOUR TOPIC]"
+    
+  },
+  {
+    "id": 36,
+    "icon": "instagram",
+    "color": "#E1306C",
+    "title": "Get Instagram caption",
+    "description": "Get an Instagram caption that adds context to your photo.",
+    "category": "generation,social-media,instagram",
+    "max_tokens": 150,
+    "temperature": 0.5,
+    "prompt": "Get an Instagram caption about:[YOUR TOPIC]"
+    
+  },
+  {
+    "id": 45,
+    "icon": "twitter",
+    "color": "#FFE4C4",
+    "title": "Get Title About News Summary For Tweet",
+    "description": "This prompt allows you to summarize the main points of a news article and tweet it.",
+    "category": "classification,social-media,twitter,summarization",
+    "max_tokens": 60,
+    "frequency_penalty": 0.6,
+    "presence_penalty": 0.5,
+    "prompt": "Get news summary to tweet.Provide the article's title. \n\nArticle Title: [YOUR TITLE]"
+    
+  },
+  {
+    "id": 46,
+    "icon": "blog",
+    "color": "#ADFF2F",
+    "title": "Get New Product Blog post",
+    "description": "Get a blog post to introduce a new product to readers.",
+    "category": "generation,blog,product,woocommerce",
+    "max_tokens": 500,
+    "temperature": 0.7,
+    "prompt": "Get introduction about:[YOUR PRODUCT]"
+    
+  },
+  {
+    "id": 71,
+    "icon": "instagram",
+    "color": "#34495E",
+    "title": "Get Instagram Hashtag",
+    "description": "Get a list of relevant hashtags to use in your Instagram posts.",
+    "category": "generation,instagram,social-media",
+    "max_tokens": 50,
+    "temperature": 0.5,
+    "prompt": "Get a list of relevant hashtags about : [YOUR TOPIC]\n\n"
+    
+  },
+  {
+    "id": 72,
+    "icon": "pen",
+    "color": "#F7DC6F",
+    "title": "Get Blog Post Title",
+    "description": "Get an attention-grabbing title for a blog post.",
+    "category": "generation,blog",
+    "max_tokens": 50,
+    "temperature": 0.5,
+    "prompt": "Get an eye catchy title for a blog post. Topic: [TOPIC NAME]\n\n"
+    
+  },
+  {
+    "id": 73,
+    "icon": "pen",
+    "color": "#9A12B3",
+    "title": "Get Blog Post Introduction",
+    "description": "Get an engaging introduction for a blog post.",
+    "category": "generation,blog",
+    "max_tokens": 150,
+    "temperature": 0.7,
+    "prompt": "Get a good introduction for a blog post. Topic: [YOUR TOPIC]\n\n"
+    
+  },
+  {
+    "id": 74,
+    "icon": "pen",
+    "color": "#2ECC71",
+    "title": "Get Blog Post Conclusion",
+    "description": "Get a conclusion for a blog post.",
+    "category": "generation,blog",
+    "max_tokens": 100,
+    "temperature": 0.7,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.1,
+    "prompt": "Get a conclusion for a blog post about: [Your Blog Topic] \n\n"
+    
+  },
+  {
+    "id": 75,
+    "icon": "pen",
+    "color": "#3498DB",
+    "title": "Get WordPress Blog Post Title",
+    "description": "Get a catchy and attention-grabbing title for a WordPress blog post.",
+    "category": "generation,blog,wordpress",
+    "max_tokens": 50,
+    "temperature": 0.7,
+    "frequency_penalty": 0.2,
+    "presence_penalty": 0.1,
+    "prompt": "Get eye catchy title for a WordPress blog post about : [Blog Topic]\n\n"
+    
+  },
+  {
+    "id": 76,
+    "icon": "pen",
+    "color": "#F1C40F",
+    "title": "Get WordPress Blog Post Introduction",
+    "description": "Get an engaging introduction for a WordPress blog post.",
+    "category": "generation,blog,wordpress",
+    "max_tokens": 150,
+    "temperature": 0.8,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.05,
+    "prompt": "Get eye catchy introduction for a WordPress blog post about: [Blog Topic]\n\n"
+    
+  },
+  {
+    "id": 77,
+    "icon": "pen",
+    "color": "#E67E22",
+    "title": "Get Social Media Post",
+    "description": "Get a catchy and engaging social media post for a new product launch.",
+    "category": "generation,social-media,marketing",
+    "max_tokens": 140,
+    "temperature": 0.7,
+    "frequency_penalty": 0.2,
+    "presence_penalty": 0.05,
+    "prompt": "Get a social media post for a new product launch. Product: [New Product]\n\n"
+    
+  },
+  {
+    "id": 78,
+    "icon": "pen",
+    "color": "#27AE60",
+    "title": "Get Social Media Caption",
+    "description": "Get a catchy and engaging caption for a social media post",
+    "category": "generation,social-media,marketing",
+    "max_tokens": 30,
+    "temperature": 1,
+    "frequency_penalty": 0.2,
+    "presence_penalty": 0.1,
+    "prompt": "Get a caption for a social media post about : [YOUR TOPIC]\n\n"
+    
+  },
+  {
+    "id": 81,
+    "icon": "cart",
+    "color": "#E74C3C",
+    "title": "Get E-commerce Product Description",
+    "description": "Get a detailed product description for an e-commerce website.",
+    "category": "generation,product,ecommerce",
+    "max_tokens": 500,
+    "temperature": 0.9,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.2,
+    "prompt": "Get a detailed product description about : [YOUR PRODUCT]\n\n"
+    
+  },
+  {
+    "id": 82,
+    "icon": "search",
+    "color": "#1ABC9C",
+    "title": "Get SEO Title",
+    "description": "Get an SEO friendly title for a website page.",
+    "category": "generation,seo,blog",
+    "max_tokens": 60,
+    "temperature": 0.7,
+    "prompt": "Get an SEO eye-catchy title for a website page: [YOUR TOPIC]\n\n"
+    
+  },
+  {
+    "id": 1,
+    "icon": "question",
+    "color": "#FFA07A",
+    "title": "Get Question & Answer Model",
+    "description": "Answer questions based on existing knowledge.",
+    "category": "answers,generation,conversation",
+    "stop": [
+      "\n"
+    ],
+    "prompt": "Get an answer to the question: [YOUR Question]\n\n"
+    
+  },
+  {
+    "id": 2,
+    "icon": "grammar",
+    "color": "#DDA0DD",
+    "title": "Get Grammar correction",
+    "description": "Get corrects sentences into standard English.",
+    "category": "transformation,generation",
+    "max_tokens": 60,
+    "prompt": "Get Correction into the standard English: [Your Sentence]"
+    
+  },
+  {
+    "id": 4,
+    "icon": "translate",
+    "color": "#90EE90",
+    "title": "Get English to Other Languages",
+    "description": "Translates English text into any language.",
+    "category": "transformation,generation,translation",
+    "temperature": 0.3,
+    "prompt": "Translate the sentence into [YOUR Language]: [Your Sentence]"
+    
+  },
+  {
+    "id": 9,
+    "icon": "key",
+    "color": "#AFEEEE",
+    "title": "Get Keywords",
+    "description": "Get keywords from a block of text.",
+    "category": "classification,transformation,keyword",
+    "max_tokens": 60,
+    "temperature": 0.5,
+    "frequency_penalty": 0.8,
+    "prompt": "Get keywords from this text:[YOUR TEXT]"
+    
+  },
+  {
+    "id": 12,
+    "icon": "product",
+    "color": "#F08080",
+    "title": "Get Product name",
+    "description": "Create product names from examples words. Influenced by a community prompt.",
+    "category": "generation",
+    "max_tokens": 60,
+    "temperature": 0.8,
+    "prompt": "Get Product name:[YOUR PRODUCT]"
+    
+  },
+  {
+    "id": 27,
+    "icon": "food",
+    "color": "#A074C4",
+    "title": "Get Recipe Ingredients",
+    "description": "Get a recipe from a list of ingredients.",
+    "category": "generation",
+    "max_tokens": 120,
+    "temperature": 0.3,
+    "prompt": "Get recipe ingredients for [Your Recipe]"
+    
+  },
+  {
+    "id": 31,
+    "icon": "drink",
+    "color": "#7C41DD",
+    "title": "Get Content for Restaurant review",
+    "description": "Turn a few words into a restaurant review.",
+    "category": "generation",
+    "max_tokens": 64,
+    "temperature": 0.5,
+    "prompt": "Get restaurant review based on these notes:\n\nName: [Restaurant Name]\n[Your Review]."
+    
+  },
+  {
+    "id": 33,
+    "icon": "interview",
+    "color": "#21B68B",
+    "title": "Get Interview questions",
+    "description": "Get interview questions.",
+    "category": "generation",
+    "max_tokens": 150,
+    "temperature": 0.5,
+    "prompt": "Get the list of 10 questions for my interview about:[Your Topic]"
+    
+  },
+  {
+    "id": 50,
+    "icon": "cart",
+    "color": "#808000",
+    "title": "Get WooCommerce Short Description",
+    "description": "Get a short description for a WooCommerce product.",
+    "category": "generation,product,woocommerce",
+    "max_tokens": 200,
+    "temperature": 0.8,
+    "prompt": "Get a short description of a WooCommerce product. Product:[YOUR PRODUCT]"
+    
+  },
+  {
+    "id": 52,
+    "icon": "food",
+    "color": "#556B2F",
+    "title": "Get Recipe With New Food Product",
+    "description": "Get a recipe using a new food product.",
+    "category": "generation,product",
+    "max_tokens": 200,
+    "temperature": 0.7,
+    "prompt": "Get a new recipe using a new food product. Product: [Your Product]"
+    
+  },
+  {
+    "id": 56,
+    "icon": "cart",
+    "color": "#00FFFF",
+    "title": "Get WooCommerce Product Attribute",
+    "description": "Get a product attribute for a WooCommerce product.",
+    "category": "generation,product,woocommerce",
+    "max_tokens": 150,
+    "temperature": 0.5,
+    "frequency_penalty": 0.1,
+    "prompt": "Get a product attribute for a WooCommerce product. Product: [Product Name]"
+    
+  },
+  {
+    "id": 60,
+    "icon": "cart",
+    "color": "#00FF00",
+    "title": "Get WooCommerce Product Tagline",
+    "description": "Get a catchy tagline for a WooCommerce product.",
+    "category": "generation,product,woocommerce",
+    "max_tokens": 50,
+    "temperature": 0.7,
+    "frequency_penalty": 0.2,
+    "presence_penalty": 0.1,
+    "prompt": "Get eye catchy tagline for a WooCommerce product. Product: [Product Name]"
+    
+  },
+  {
+    "id": 67,
+    "icon": "twitter",
+    "color": "#008080",
+    "title": "Get Twitter Quotes for Tweet for Branding",
+    "description": "Get an engaging tweet to promote your brand or product on Twitter.",
+    "category": "generation,twitter,social-media,product",
+    "max_tokens": 280,
+    "temperature": 0.8,
+    "frequency_penalty": 0.2,
+    "presence_penalty": 0,
+    "prompt": "Get tweet quotes to promote your brand or product on Twitter.Brand:[Name Of Brand]"
+    
+  },
+  {
+    "id": 84,
+    "icon": "search",
+    "color": "#2C3E50",
+    "title": "Get SEO Title Tag",
+    "description": "Get a title tag for a webpage to improve SEO",
+    "category": "generation,seo,blog",
+    "max_tokens": 60,
+    "temperature": 0.7,
+    "presence_penalty": 0.2,
+    "prompt": "Get a webpage title tag about :[Topic]"
+    
+  },
+  {
+    "id": 85,
+    "icon": "search",
+    "color": "#8E44AD",
+    "title": "Get SEO Keyword Research",
+    "description": "Get a list of keywords for SEO and page ranking.",
+    "category": "generation,seo,keyword,google",
+    "max_tokens": 50,
+    "temperature": 0.7,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.3,
+    "prompt": "Get an e-commerce website keywords that sells:[Topic]"
+    
+  },
+  {
+    "id": 87,
+    "icon": "google",
+    "color": "#16A085",
+    "title": "Get Google Search Query",
+    "description": "Get a list of potential search queries for a specific topic using Google Autocomplete",
+    "category": "generation,seo,google,keyword",
+    "max_tokens": 200,
+    "temperature": 0.7,
+    "frequency_penalty": 0.1,
+    "presence_penalty": 0.2,
+    "prompt": "Get search queries for a topic about : [Your Topic]"
+    
+  },
+  {
+    "id": 88,
+    "icon": "google",
+    "color": "#D0021B",
+    "title": "Get Google Search Suggestions",
+    "description": "Get search suggestions for a given keyword on Google.",
+    "category": "generation,seo,google,keyword",
+    "temperature": 0.7,
+    "prompt": "Get search suggestions for the keyword : [Your Topic]"
+    
+  }
+]
